@@ -4,8 +4,9 @@
   "description": "css practice",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compress:css": "node-sass css/main.css css/style.css --output-style compressed"
   },
   "author": "Adrian",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
