@@ -1,0 +1,15 @@
+.header {
+    margin: 0 $margin-leftAndRight;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10rem;
+
+    // Not finish yet
+    // &__link {}
+    
+    &__logo {
+        width: 22rem;
+    }
+}
