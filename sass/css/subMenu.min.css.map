@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../components/subMenu.scss"
-    ],
-    "names": [],
-    "file": "subMenu.min.css"
-}
