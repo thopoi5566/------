@@ -1,0 +1,53 @@
+// 背景色 以及 被定位用
+// TODO 寫 RWD 時，將背景色寫在 text-box
+.intro {
+    position: relative;
+    background-color: $color-bg;
+    width: 100%;
+    height: 42rem;
+
+    // 用 flex 排版圖片跟文字
+    &__container {
+        width: 100%;
+        padding: 0 $gutter-side;
+
+        position: absolute;
+        top: -2rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text-box {
+        height: 29rem;
+
+        font-weight: 300;
+        line-height: 2.5;
+        color: $color-primary-light;
+        text-align: justify;
+        writing-mode: vertical-rl;
+
+        & p:first-child {
+            padding-left: $gutter-text;
+        }
+    }
+
+    &__img {
+        width: 46rem;
+        height: 46rem;
+        object-fit: cover;
+
+        // TODO 用 order 改變不同 section 的樣式
+        order: -1;
+
+        &--section2 {
+            order: 1;
+        }
+    }
+
+    &__quote {
+        width: 8.9rem;
+        align-self: flex-start;
+    }
+}

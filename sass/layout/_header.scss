@@ -1,14 +1,14 @@
 .header {
-    margin: 0 $margin-leftAndRight;
+    margin: 0 $gutter-side;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     height: 10rem;
 
-    // Not finish yet
+    // TODO
     // &__link {}
-    
+
     &__logo {
         width: 22rem;
     }
