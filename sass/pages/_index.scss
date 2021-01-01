@@ -6,6 +6,20 @@
     width: 100%;
     height: 42rem;
 
+    // section 3 style
+    &--section3 {
+        height: initial;
+        background-color: initial;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        & img {
+            align-self: initial;
+        }
+    }
+
     // 用 flex 排版圖片跟文字
     &__container {
         width: 100%;
@@ -22,7 +36,7 @@
     &__text-box {
         height: 29rem;
 
-        font-weight: 300;
+        font-weight: $font-w-light;
         line-height: 2.5;
         color: $color-primary-light;
         text-align: justify;
@@ -50,4 +64,13 @@
         width: 8.9rem;
         align-self: flex-start;
     }
+}
+
+.product {
+    margin: 0 $gutter-side;
+
+    // TODO
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

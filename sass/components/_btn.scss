@@ -1,0 +1,11 @@
+.btn {
+    font-size: $font-s-lg;
+    font-weight: $font-w-semibold;
+    border: none;
+    padding: 1.6rem 0;
+
+    &--gray {
+        color: $color-primary;
+        background-color: $color-bg;
+    }
+}
