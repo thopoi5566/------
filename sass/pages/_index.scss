@@ -52,7 +52,7 @@
         height: 46rem;
         object-fit: cover;
 
-        // TODO 用 order 改變不同 section 的樣式
+        // 用 order 改變不同 section 的樣式
         order: -1;
 
         &--section2 {
@@ -69,7 +69,6 @@
 .product {
     margin: 0 $gutter-side;
 
-    // TODO
     display: flex;
     justify-content: space-between;
     align-items: center;

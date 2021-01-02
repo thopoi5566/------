@@ -1,3 +1,4 @@
+// 商品資訊
 .card {
     width: 30rem;
 
@@ -7,6 +8,7 @@
     position: relative;
     border: 1px solid $color-bg;
 
+    // 左上角的標籤
     &__mark {
         color: $color-bg;
         background-color: $color-primary;
@@ -19,6 +21,7 @@
         left: 2rem;
     }
 
+    // 右上角的 icon
     &__icon {
         width: 2rem;
         height: 1.835rem;
@@ -38,6 +41,7 @@
             object-fit: cover;
         }
     }
+    // 商品名稱以及價格用 flex 佔滿整個寬
     &__text-box {
         display: flex;
         border: 1px solid $color-bg;
