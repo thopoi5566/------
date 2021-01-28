@@ -1,0 +1,73 @@
+.footer {
+    // 綠色那區
+    &__subscribe {
+        background-color: $color-primary;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: space-around;
+
+        .logo-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 4rem;
+                height: 4rem;
+                margin-right: 2rem;
+            }
+
+            p {
+                color: $color-bg;
+                font-size: $font-s-lg;
+            }
+        }
+    }
+
+    // 主要資訊
+    &__content {
+        margin-bottom: 5rem; // TEST
+        padding: 3rem 12.2rem;
+        background-color: $color-bg;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+            width: 17.122rem;
+            // height: 2.66rem;
+        }
+    }
+
+    &__contact {
+        font-weight: $font-w-semibold;
+    }
+    &__quote {
+        img {
+            width: 5.928rem;
+        }
+    }
+    &__copy {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        img {
+            width: 3.2rem;
+            margin-right: 0.8rem;
+
+            &[alt="facebook"] {
+                margin-right: auto;
+            }
+        }
+    }
+}
