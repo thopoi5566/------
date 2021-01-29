@@ -24,6 +24,7 @@
         flex: 0 1 16.8%;
         background-color: $color-yellow;
         border: none;
+        cursor: pointer;
         &:focus {
             outline: none;
         }

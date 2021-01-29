@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./image/logo-dark.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/logo-dark.svg" type="image/x-icon">
     <title>Sweetaste&#8277;</title>
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-    <!-- 用來在寬度大於1024px的螢幕置中的wrapper -->
     <div class="wrapper">
 
-        <!-- logo 跟 nav -->
+        <!-- header -->
         <header class="header">
             <a href="#" class="header__link">
                 <img src="./image/logo-all-dark.svg" class="header__logo" alt="The main logo">
@@ -34,75 +33,17 @@
             </nav>
         </header>
 
-        <!-- 主視覺圖以及 sub-menu -->
-        <div class="banner mb-xlg">
-            <img src="./image/photo/banner-1_lg_1920x1536.jpg" alt="banner img" class="banner__img">
-            <div class="sub-menu">
-                <ul class="sub-menu__list">
-                    <li class="sub-menu__item">
-                        <a href="#" class="sub-menu__link">
-                            <div class="sub-menu__box sub-menu__box--1 active">
-                                <span class="sub-menu__text">本日精選</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="sub-menu__item">
-                        <a href="#" class="sub-menu__link">
-                            <div class="sub-menu__box sub-menu__box--2">
-                                <span class="sub-menu__text">人氣推廣</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="sub-menu__item">
-                        <a href="#" class="sub-menu__link">
-                            <div class="sub-menu__box sub-menu__box--3">
-                                <span class="sub-menu__text">新品上市</span>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <!-- banner -->
+        <div class="banner">
+            <img src="./image/photo/banner-2_lg_1920x1231.jpg" alt="banner img" class="banner__img">
+            <img src="./image/lg-想吃甜點是不需要理由的.svg" alt="banner quote lg" class="banner__quote">
         </div>
 
-        <main class="content">
-            <!-- 第一 section -->
-            <section class="intro mb-mid">
-                <div class="intro__container">
-                    <div class="intro__text-box">
-                        <p class="paragraph">
-                            青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
-                        </p>
-                        <p class="paragraph">
-                            是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
-                        </p>
-                    </div>
-                    <img src="./image/photo/intro-img-1_mid_1920x2880.jpg" alt="intro img" class="intro__img">
-                    <img src="./image/lg-為什麼選擇了做甜點.svg" alt="intro quote" class="intro__quote">
-                </div>
-            </section>
-            <!-- 第二 section -->
-            <section class="intro mb-mid">
-                <div class="intro__container">
-                    <div class="intro__text-box">
-                        <p class="paragraph">
-                            青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
-                        </p>
-                        <p class="paragraph">
-                            是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。
-                        </p>
-                    </div>
-                    <img src="./image/photo/intro-img-2_mid_1920x2880.jpg" alt="intro img"
-                        class="intro__img intro__img--section2">
-                    <img src="./image/lg-為什麼一定要吃甜點.svg" alt="intro quote" class="intro__quote">
-                </div>
-            </section>
-            <!-- 第三 section -->
-            <section class="intro intro--section3 mb-sm">
-                <img src="./image/lg-想吃甜點是不需要理由的.svg" alt="想吃甜點是不需要理由的" class="intro__quote">
-            </section>
+        <main class="content content--product">
+            <div class="side-menu">
 
-            <!-- 第四 section -->
-            <section class="product-card--home mb-xs">
+            </div>
+            <div class="product-card product-card--product">
                 <div class="card">
                     <span class="card__mark">本日精選</span>
                     <i class="material-icons card__icon">favorite_border</i>
@@ -141,7 +82,45 @@
                     </div>
                     <button class="btn btn--gray">加入購物車</button>
                 </div>
-            </section>
+                <div class="card">
+                    <span class="card__mark">本日精選</span>
+                    <i class="material-icons card__icon">favorite_border</i>
+                    <div class="card__img-box">
+                        <img src="./image/photo/card-1_sm_640x960.jpg" alt="產品圖" class="card__img">
+                    </div>
+                    <div class="card__text-box">
+                        <span class="card__text">焦糖馬卡龍</span>
+                        <span class="card__price">NT&dollar; 450</span>
+                    </div>
+                    <button class="btn btn--gray">加入購物車</button>
+                </div>
+
+                <div class="card">
+                    <span class="card__mark">本日精選</span>
+                    <i class="material-icons card__icon">favorite_border</i>
+                    <div class="card__img-box">
+                        <img src="./image/photo/card-2_sm_640x960.jpg" alt="產品圖" class="card__img">
+                    </div>
+                    <div class="card__text-box">
+                        <span class="card__text">焦糖馬卡龍</span>
+                        <span class="card__price">NT&dollar; 450</span>
+                    </div>
+                    <button class="btn btn--gray">加入購物車</button>
+                </div>
+
+                <div class="card">
+                    <span class="card__mark">本日精選</span>
+                    <i class="material-icons card__icon">favorite_border</i>
+                    <div class="card__img-box">
+                        <img src="./image/photo/card-3_sm_640x960.jpg" alt="產品圖" class="card__img">
+                    </div>
+                    <div class="card__text-box">
+                        <span class="card__text">焦糖馬卡龍</span>
+                        <span class="card__price">NT&dollar; 450</span>
+                    </div>
+                    <button class="btn btn--gray">加入購物車</button>
+                </div>
+            </div>
         </main>
 
         <!-- footer -->
@@ -180,8 +159,6 @@
             </div>
         </footer>
     </div>
-
-
 </body>
 
 </html>
