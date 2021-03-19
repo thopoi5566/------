@@ -6,3 +6,23 @@
         right: 4rem;
     }
 }
+
+.content {
+    &--product-page {
+        margin: 0 $gutter-side;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .side-menu {
+        height: 100%;
+    }
+}
+
+.product-card {
+    &--product-page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

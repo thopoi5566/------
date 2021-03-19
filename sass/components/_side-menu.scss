@@ -1,0 +1,11 @@
+.side-menu {
+    display: inline-block;
+    width: 30rem;
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        list-style: none;
+    }
+}
