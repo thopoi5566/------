@@ -1,11 +1,25 @@
 .side-menu {
     display: inline-block;
-    width: 30rem;
     &__container {
+        width: 30rem;
         display: flex;
         flex-direction: column;
     }
     &__item {
+        font-size: $font-s-lg;
+        font-weight: $font-w-semibold;
         list-style: none;
+        padding: 1.79rem 0;
+        text-align: center;
+        border: 1px solid $color-bg;
+
+        &:first-of-type {
+            background-color: $color-primary;
+            color: $color-bg;
+        }
+
+        &.selected {
+            background-color: $color-bg;
+        }
     }
 }

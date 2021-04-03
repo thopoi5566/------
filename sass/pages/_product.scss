@@ -10,7 +10,7 @@
 .content {
     &--product-page {
         margin: 0 $gutter-side;
-        width: 100%;
+        max-width: 94rem;
         display: flex;
         justify-content: space-around;
     }
@@ -23,6 +23,12 @@
 .product-card {
     &--product-page {
         display: flex;
+        width: 67.66666%;
         flex-wrap: wrap;
+        justify-content: space-between;
+
+        & .card {
+            width: 50%;
+        }
     }
 }
